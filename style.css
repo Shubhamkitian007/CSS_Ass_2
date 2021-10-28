@@ -1,33 +1,17 @@
 body {
     background: url("image.jpg");
-    text-align: center;
     border: 5px solid yellowgreen;
-    padding-top: 10px;
+    padding: 0;
     margin: 0;
 }
-
-
-/* heading content  */
+    /* Section 1*/
 
 .container {
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-top: 10px;
 }
-
-.container1 {
-    padding: 50px;
-    display: flex;
-    justify-content: center center;
-}
-
-.formbody {
-    margin-left: 100px;
-    width: 500px;
-    padding: 20px 0px;
-    border: 5px dashed red;
-    background-color: white;
-}
-
 .heading1 {
     border: 5px solid red;
     width: 350px;
@@ -57,11 +41,12 @@ body {
     border-radius: 20px;
 }
 
-p {
-    font-size: 20px;
-    font-style: italic;
+    /* Section 2*/
+.container1 {
+    padding: 50px;
+    display: flex;
+    justify-content: center center;
 }
-
 .circle {
     background-color: #20b2aa;
     width: 400px;
@@ -73,6 +58,61 @@ p {
     border: 5px solid gray;
 }
 
+.formbody {
+    margin-left: 100px;
+    width: 500px;
+    padding: 20px 0px;
+    border: 5px dashed red;
+    background-color: white;
+    text-align: center;
+}
+
+/* Section 3*/
+
+.menu {
+    background-color: black;
+    width: 350px;
+    border: 5px solid red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+    /*Section 4*/
+
+.container4 {    
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 800px;
+    justify-content: space-between;
+    color: violet;
+}
+
+.item-list {
+    /* height: 300px; */
+    background-color: aqua;
+    border: 2px solid green;
+    width: 30%;
+    /* margin: 40px; */
+    margin-bottom: 14px;
+    border-radius: 20px;
+    color: rgb(32, 32, 189);
+    /* text-align: center; */
+    font-size: 20px;
+
+}
+/*Extra Style Tag */      
+
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
 u {
     font-weight: bold;
     font-size: 20px;
@@ -80,38 +120,14 @@ u {
 
 label {
     font-size: 22px;
-    color: rgb(255, 113, 137);
+    color: rgb(12, 49, 222  );
 }
 
-.menu {
-    background-color: black;
-    width: 400px;
-    border: 5px solid red;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 0px;
+li{
+    padding-left: 50px;
+    margin-left: 15px;
 }
 
-.container4 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-}
-
-.item-list {
-    height: 300px;
-    background-color: aqua;
-    border: 2px solid green;
-    width: 25%;
-    margin: 40px;
-    border-radius: 20px;
-    color: rgb(32, 32, 189);
-}
-
-UL {
-    font-size: 20px;
+h2{
+    margin-left: 100px;
 }
